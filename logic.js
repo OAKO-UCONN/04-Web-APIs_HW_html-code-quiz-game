@@ -29,15 +29,34 @@ function foo() {
     window.yourGlobalVariable = ...;
 }
 </script>
+
+//https://www.youtube.com/watch?v=XmaEYvyKf5o
+
+/** Add More Block */
+function addMoreBlock() {
+
+  // SINGLE LINE COMMENT
+  // let counter = 100;
+
+  console.log("Hello I am there!!!");
+  alert("Hello I am there!!!");
+
+}
+/** Delete Block */
+function deleteBlock() {
+
+}
+
+/*
 */
+//OLD FUNCTIONS
+/*
 function logicjs() {
   alert("logic.js");
 };
 
 //When var q1 is = 0 answer is incorrect.
 //When var q1 is = 1 answer is correct.
-//Question 1
-//1
 var q1 = 0;
 function q1b1() {
 document.getElementById("#q1-b1").onclick = function(){
@@ -147,7 +166,10 @@ if (q4 = 1) {
 }
 //4
 //--
+*/
 
+//https://www.youtube.com/watch?v=XmaEYvyKf5o
+//External JavaScript HTML Fucntion Linking
 
 function startQuiz() {
   // start timer ticks every 1 second
@@ -218,3 +240,4 @@ function endQuiz() {
   // show final score
   // hide questions section
 }
+
