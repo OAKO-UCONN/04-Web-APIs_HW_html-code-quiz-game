@@ -237,6 +237,7 @@ function endQuiz() {
   clearInterval(timerId);
   // TODO:
   // show end screen
+  
   // show final score
   // hide questions section
 }
